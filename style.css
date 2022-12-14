@@ -66,24 +66,39 @@ p{
     padding: 0 20px;
 }
 
-.about h1 {
-    font-size: 64px;
+.content-section h1 {
+    font-size: 54px;
+    text-align: center;
     color: black;
     line-height: 80px;
     font-family: var(--heading-font-family);
 }
 
-.about h2 {
+.content-section h2 {
     font-family: var(--default-font-family);
     font-size: 18px;
     font-weight: bold ;
 }
 
-.about {
+.content-container {
     padding: 80px 20px;
 }
-.about-section {
+.content-section {
    margin: 20px;
+   
+}
+
+.content-section h3 {
+font-size: 32px;
+
+line-height: 1.5;
+font-family: var(--default-font-family);
+}
+
+.content-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+
 }
 
 
@@ -105,18 +120,18 @@ p{
         text-align: center;
         padding: 80px 20px;
     }
-    .about {
+    .content-container {
         text-align: center;
         padding: 0;
     }
 
-    .about-section .btn {
+    .content-section .btn {
         display: block;
         margin: 0 auto;
         text-align: center;
     }
-    .about h1 {
-        font-size: 44px;
+    .content-section h1 {
+        font-size: 34px;
         color: black;
         line-height: 40px;
 }
