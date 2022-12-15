@@ -6,9 +6,6 @@
 }
 
 
-
-
-
 h2{
     font-family: var(--default-font-family);
     color: black;
@@ -99,6 +96,25 @@ font-family: var(--default-font-family);
     font-size: 18px;
     margin-bottom: 30px;
 
+}
+
+.logo{
+    max-width: 100px;
+}
+nav{
+    padding: 15px 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 20px;
+
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
 }
 
 
