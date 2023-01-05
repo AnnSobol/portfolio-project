@@ -31,6 +31,13 @@ h4{
     font-size: 58px;
     font-family: var(--heading-font-family);
 }
+
+h5{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+}
+
 p{
     font-weight: normal;
     font-size: 16px;
@@ -156,6 +163,15 @@ footer .social-links a:hover{
     background-color: var(--branding-color);
 }
 
+footer .contact-box{
+    background-color: var(--secondary-color);
+    padding: 30px 80px;
+    border-radius: 10px;
+}
+footer .contact-box p{
+    margin:0;
+}
+
 @media (max-width: 900px) {
     h1{
         font-size: 50px;
@@ -192,4 +208,18 @@ footer .social-links a:hover{
  nav a{
     font-size: 10px;
  }
+
+ footer .contact-box{
+    background-color: var(--secondary-color);
+    padding: 20px ;
+    border-radius: 10px;
+}
+.btn{
+    font-size: 20px;
+
+}
+
+h5{
+    font-size: 30px;
+}
 }
